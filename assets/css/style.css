@@ -1,0 +1,106 @@
+a {
+  color: #005caf;
+}
+
+img.logo {
+  width: 38px;
+  height: auto;
+}
+
+.navbar-brand {
+  width: 50%;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #005caf;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+.bg-minimalist {
+  background-color: #ffffff !important;
+  opacity: 0.9;
+}
+
+.btn-link{
+  color: #005caf;
+}
+
+footer {
+  color: #005caf;
+  font-size: 0.875rem;
+  border-top: 1px solid #005caf;
+}
+
+.img-desc{
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 0;
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  color: #005caf;
+}
+
+.img-desc:hover, .img-desc:focus{
+  opacity: 0.6;
+  animation-name: portfolio;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes portfolio {
+  0% {
+    opacity: 0.6;
+  }
+  100%{
+    opacity: 0.9;
+  }
+}
+
+.breadcrumb{
+  background: #ffffff;
+}
+
+.team{
+  background: #81c7d4;
+}
+
+.team .bg-minimalist {
+  background-color: #81c7d4 !important;
+}
+
+.team .navbar-light .navbar-nav .active>.nav-link, 
+.team .navbar-light .navbar-nav .nav-link.active, 
+.team .navbar-light .navbar-nav .nav-link.show, 
+.team .navbar-light .navbar-nav .show>.nav-link,
+.team .breadcrumb-item.active,
+.team .breadcrumb-item+.breadcrumb-item::before{
+  color: #ffffff;
+}
+
+.team .navbar-light .navbar-nav .nav-link{
+  color:#005caf;
+}
+
+.team .breadcrumb{
+  background: none;
+}
+
+.rounded-circle{
+  width: 200px;
+  height: 200px;
+}
